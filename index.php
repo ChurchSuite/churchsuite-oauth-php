@@ -28,7 +28,7 @@ if (isset($_GET['auth'])) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ChurchApp OAuth PHP Example</title>
+	<title>ChurchSuite OAuth PHP Example</title>
 	<meta content="index,follow" name="robots" />
 	<meta charset="utf-8" />
 	<link href="/style.css" rel="stylesheet" />
