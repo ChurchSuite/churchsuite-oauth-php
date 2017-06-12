@@ -1,6 +1,6 @@
-# ChurchApp OAuth Example - PHP
+# ChurchSuite OAuth Example - PHP
 
-An example implementation of the ChurchApp OAuth flow, using the OAuth2 package from @adoy.
+An example implementation of the ChurchSuite OAuth flow, using the OAuth2 package from @adoy.
 
 * OAuth2: https://github.com/adoy/PHP-OAuth2
 
@@ -10,7 +10,7 @@ In order to use this script you must add a config.php file to the directory cont
 <?php
 define('CLIENT_IDENTIFIER', 'YOUR_CLIENT_ID');
 define('CLIENT_SECRET', 'YOUR_CLIENT_SECRET');
-define('CLIENT_ENDPOINT', 'https://yourchurch.churchapp.co.uk/oauth');
+define('CLIENT_ENDPOINT', 'https://yourchurch.churchsuite.com/oauth');
 ?>
 ````
 
