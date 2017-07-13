@@ -9,7 +9,7 @@ $client = new OAuth2\Client(CLIENT_IDENTIFIER, CLIENT_SECRET);
 
 if (isset($_GET['auth'])) {
 	//no code and no token so redirect user to log in
-	$auth_url = $client->getAuthenticationUrl(CLIENT_ENDPOINT.'/authorize', '');
+	$auth_url = $client->getAuthenticationUrl(CLIENT_ENDPOINT.'/authorize', '', array('state' => 'demo'));
 	header('Location: '.$auth_url);
 	exit;
 
