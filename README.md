@@ -14,4 +14,6 @@ define('CLIENT_ENDPOINT', 'https://yourchurch.churchsuite.com/oauth');
 ?>
 ````
 
+Your client endpoint will need to have the same top-level domain that you see when you are logged in to ChurchSuite. For example you may need to change the ".com" to ".co.uk".
+
 Once your config.php is setup you will be able to view the first page when served by a web server.
